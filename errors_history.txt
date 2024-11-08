@@ -1,0 +1,84 @@
+Error responses:
+error: 400
+
+{
+	"error": "Missing required fields",
+	"details": "User id is required to fetch the history."
+}
+
+Error responses:
+error: 404
+
+{
+	"error": "No history found",
+	"details": "No history data found for the given user."
+
+}
+
+Error responses:
+error:404
+
+{
+	"error": "User not found",
+	"details": "	The user with provided ID does not exist. "
+
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Invalid date range",
+	"details": "The requested data range is invalid or no history is not available for that time period."
+}
+
+Error responses:
+error: 401
+
+{
+	"error": "Unauthorized",
+	"details": "You must be logged in to access your history."
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Missing hours data",
+	"details": "The hours data is required for the user history."
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Invalid hours data",
+	"details": "The hours value must be a positive number."
+
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Excessive working hours"
+	"details": "The working hours exceed the maximum allowed limit."
+
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Inconsistent  data",
+	"details": "The working hours do not match the expected salary or date data."
+
+}
+
+Error responses:
+error: 404
+
+{
+	"error":"No hours added",
+	"details":"No working hours data found for the requested data range."
+}
