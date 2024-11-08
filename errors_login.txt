@@ -1,0 +1,33 @@
+Error responses:
+error: 400
+
+json:
+
+{
+	"error":"Missing required fields",
+	"details":"Both username or password are required to log in."
+}  
+
+Error responses:
+error: 401
+
+{
+	"error:"Invalid  credentials",
+	"details:"The username or password you entered are incorrect."	
+}
+
+Error responses:
+error: 404
+
+{
+	"error":"User  not found",
+	"details": "No user found with provided username."
+
+}
+
+Error responses:
+error: 403
+
+{
+	"error": "Account is not verified."
+}
