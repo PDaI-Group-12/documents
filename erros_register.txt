@@ -1,0 +1,52 @@
+Error responses :
+error: 400
+
+{
+	"error": "Missing required fields",
+	"details": "All fields (username, password and confirm password) are required."
+
+}
+
+Error responses:
+error: 400
+
+
+{
+	"error": "Weak password",
+	"details": "Password must be at least 8 characters long, contain number and include one special characters."
+}
+
+Error responses:
+Error 400:
+
+{
+	"Error": "Password mismatch",
+	"details": "The password and confirm password fields must match."
+
+
+}
+
+Error responses:
+error: 403:
+
+{
+	"error": "Invalid token",
+}
+
+Error responses:
+Error 409:
+
+{
+	"Error": "Username already taken",
+	"details": "The username you given is already in use. Please choose different username"
+
+}
+
+Error responses:
+error 400:
+
+{
+	"error": "Invalid username",
+	"details:"Username can only contain letters, numbers and underscores"
+}
+
