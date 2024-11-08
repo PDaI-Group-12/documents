@@ -1,0 +1,56 @@
+Error responses:
+Error 400:
+ 
+{
+	"error": "Missing required fields",
+	"details": "User id ,amount, and payment data are required to create a payment request."
+}
+
+Error responses:
+Error 400:
+
+{
+	"error": "Invalid amount",
+	"details": "The amount should be positive number."
+}
+
+Error responses:
+Error 400:
+
+{
+	"error": "Excessive payment amount",
+	"details": "The requested payment exceeds the allowed limit."
+}	
+
+Error responses:
+Error:400
+
+{
+	"Error": "Invalid payment date",
+	"details": "The payment date must be valid date and not in the past."
+}
+
+Error responses:
+Error 404:
+
+{
+	"Error": "User not found",
+	"details": "The user with the provided ID does not exist or is not authorized."
+
+}
+
+Error responses:
+Error 401:
+
+{
+  "error": "Unauthorized",
+  "details": "You must be logged in to request a payment."
+}
+
+Error responses:
+Error: 429
+{
+  "error": "Too many requests",
+  "details": "You have exceeded the maximum number of payment requests that can be made in a short time. Please try again later."
+}
+
