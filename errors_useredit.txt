@@ -1,0 +1,55 @@
+Error responses:
+error: 400
+
+{
+  "error": "Invalid input data",
+  "details": "All required fields (username, password, name) must be valid and provided."
+}
+
+Error responses:
+error: 403
+
+{
+  "error": "Access denied",
+  "details": "You do not have permission to edit this user's information."
+}
+
+Error responses:
+error: 404
+
+{
+  "error": "User not found",
+  "details": "No user found with the specified ID."
+}
+
+Error responses: 
+error: 400
+
+{
+  "error": "Invalid password",
+  "details": "The password must meet the required criteria (e.g., minimum length, complexity)."
+}
+
+Error responses:
+error: 409
+
+{
+  "error": "Username already taken",
+  "details": "The chosen username is already in use. Please choose another username."
+}
+
+Error responses: 
+error: 401
+
+{
+  "error": "Unauthorized",
+  "details": "You must be logged in to edit your information."
+}
+
+Error responses:
+error: 429
+
+{
+  "error": "Too many requests",
+  "details": "You have exceeded the maximum number of update requests. Please wait and try again."
+}
