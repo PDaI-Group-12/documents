@@ -1,0 +1,49 @@
+Error responses:
+error: 404
+
+{
+	"error": "No employers found",
+	"details": "There are no employers available at the moment."
+}
+
+Error responses:
+error: 400
+
+{
+	"error": "Invalid employer ID",
+	"details": "A valid employer ID is required to retrieve employer details "
+}
+
+Error responses:
+error: 403
+
+{
+	"error": "Access denied",
+	"details": "You do not have the necessary permissions to view the employer list."
+
+}
+
+Error responses:
+error: 429
+
+{
+  "error": "Too many requests",
+  "details": "You have exceeded the maximum number of requests to view the employer list. Please wait and try again."
+}
+
+Error responses:
+error: 400
+
+{
+
+  "error": "Invalid filter parameter",
+  "details": "One or more filter parameters are invalid. Please check and try again."
+}
+
+Error responses:
+error:404
+
+{
+  "error": "Employer not found",
+  "details": "No employer found with the specified ID."
+}
